@@ -8,5 +8,7 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
-
-#empty
+luis:
+  name: Luis Flores
+  email: luis@example.com
+  password_digest: <%= User.digest('password') %>
